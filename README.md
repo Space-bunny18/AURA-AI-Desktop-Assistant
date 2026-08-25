@@ -1,52 +1,42 @@
 # AURA — AI Desktop Assistant
 
-<p align="center">
+> AURA is a Windows desktop AI assistant that understands natural-language commands and performs useful actions on your computer.
 
-  <img src="https://img.shields.io/badge/AURA-AI%20Desktop%20Assistant-6366f1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Electron-Desktop%20App-47848F?style=for-the-badge&logo=electron&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+AURA is an AI-powered desktop assistant built with **Electron, JavaScript, Node.js, and Gemini**.
 
-</p>
-
-<p align="center">
-  <strong>AURA is an AI-powered Windows desktop assistant that understands natural language and performs useful actions on your computer.</strong>
-</p>
-
----
-
-## ✨ Overview
-
-AURA is a Windows desktop AI assistant designed to make computer interaction more natural.
-
-Instead of navigating through menus or manually opening applications and folders, users can simply tell AURA what they want in natural language.
+Instead of interacting with your computer only through traditional menus, AURA lets you communicate naturally.
 
 For example:
 
-> "Open my Downloads folder"
+- "Open Chrome"
+- "Open my Downloads folder"
+- "Create a folder called Projects"
+- "Create a file called notes.txt"
+- "Open YouTube"
+- "Show my desktop"
+- "Open Task Manager"
+- "Lock my computer"
 
-or
-
-> "Open Chrome"
-
-or
-
-> "Create a folder called AURA Projects"
-
-AURA interprets the request, identifies the intended action, and executes the appropriate computer operation.
-
-For sensitive system operations, AURA includes a confirmation layer so that actions such as locking, shutting down, or restarting the computer require user confirmation.
+AURA interprets the request, determines the user's intent, and routes the request to the appropriate tool.
 
 ---
 
-# 🚀 Features
+## ✨ Features
 
-## 🧠 Natural Language Intent Recognition
+### 🤖 AI Intent Understanding
 
-AURA uses an AI brain to understand what the user is asking for and converts natural-language requests into structured actions.
+AURA uses an AI intent parser to understand what the user wants.
 
-Example:
+It can distinguish between:
+
+- Conversation
+- Applications
+- Websites
+- File-system actions
+- Windows system actions
+
+For example:
 
 ```text
 User:
-Open my Downloads folder
+"Can you bring up Chrome?"
